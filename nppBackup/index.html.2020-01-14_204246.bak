@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<title> Electonique GABON </title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<main>
+			<header>
+			  <div align="center" >
+					<img src="p1.jpg" title="schema electronique" width="1000"   height="200" border="20">
+				</div>
+				<div>
+					<hr width="500" size="10" color="blue">
+					<p align="center"><font size="20"> l'électronique a porté de tous</font></p>
+					<hr width="1300" size="10" color="blue">
+				</div>
+			</header>
+		   <form align="center">
+					<button  type="button"><font color="blue">RESISTOR</font></button>
+					<button  type="button"><font color="blue">TRANSISTOR</font></button>
+					<button  type="button"><font color="blue">CONDENSATEUR</font></button>
+					<label for="composant" type="text"><font color="blue">CIRCUIT INTÉGRÉ:</font></label>
+						<select id="composant" name="composant"  >
+							<option value="NE55">NE555</option>
+						  <option value="AOP">AOP</option>
+						  <option value="PIC">PIC</option>
+						  <option value="OPTOCOUPLEUR ">OPTOCOUPLEUR</option>
+						  <option value="PORTES LOGIQUES">PORTES LOGIQUES</option>
+						</select>
+		   </form><br>
+			<fieldset  rows="10" cols="60">
+				<fieldset>
+					<form>
+						<label for="nom">Nom et Prenom</label>
+						<input type="nom" id="nom" name="nom" placeholder="KOUMBA Pridain"><br>
+						<label for="age">Age</label>
+						<input type="age" id="age" name="age" placeholder="10_ans"><br>
+						<label for=""></label>
+						<input type="" id="" name="" placeholder=""><br>
+						<label for=""></label>
+						<input type="" id="" name="" placeholder=""><br>
+					</form>
+				</fieldset
+			</fieldset>
+		</main>
+	</body>
+</html>			
+			
